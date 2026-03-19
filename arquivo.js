@@ -156,11 +156,13 @@
 // }
 
 //---------------Cálculo de IMC------------------------
-let altura = Number(prompt("Por favor informe sua altura: "));
-let peso = Number(prompt("Por favor informe seu peso: "));
-let calculoPeso = peso/ (altura*altura)
-console.log(calculoPeso)
+// let altura = Number(prompt("Por favor informe sua altura: "));
+// let peso = Number(prompt("Por favor informe seu peso: "));
+// let calculoPeso = peso/ (altura*altura)
+// console.log(calculoPeso)
 
-if(calculoPeso <= 50){
-    alert("Você está abaixo do peso.")
-}
+// if(calculoPeso <= 50){
+//     alert("Você está abaixo do peso.")
+// }
+
+
