@@ -45,19 +45,24 @@
 
 //Jogo de adivinhação ----------------------------------------------------------------------------------
 
-// let numero = Math.floor(Math.random() * 100) + 1;
-// console.log(numero);
-// let numero_usuario = Number(prompt("Adivinhe um número de 1 a 100"));
+// Gera número aleatório de 1 a 100
+// let numeroSecreto = Math.floor(Math.random() * 100) + 1;
 
-// while(numero_usuario !== numero){
-//     if( numero_usuario > numero){
-//         let numero_usuario2 = Number(prompt("O número é maior que o número correto."));
-        
+// let palpite = Number(prompt("Adivinhe o número de 1 a 100:"));
+
+// while (palpite !== numeroSecreto) {
+//     if (palpite > numeroSecreto) {
+//         palpite = Number(prompt("Errou! O número é MENOR. Tente novamente:"));
+//     } else {
+//         palpite = Number(prompt("Errou! O número é MAIOR. Tente novamente:"));
 //     }
-//     else if(numero_usuario < numero){
-//         alert("O número é menor que o correto. ")
-//     }
-//     else{
-//         alert("Fim. ")
-//     }
+// }
+
+// // alert("Parabéns! Você acertou o número era " + numeroSecreto);
+
+//Contagem regressiva ----------------------------------------------------------------------------------
+// let numero = Number(prompt("Digite um número:"));
+// while (numero >= 0) {
+//     console.log(numero);
+//     numero--; 
 // }
